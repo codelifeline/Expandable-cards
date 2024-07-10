@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expandable Cards using html, css and js</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header" onclick="toggleCard(this)">HTML</div>
+      <div class="card-content">
+        <div class="images">
+          <img src="html.png" alt="Image 1">
+          <!-- Add more images as needed -->
+        </div>
+        <div class="text">
+          <p>HTML</p>
+          <p>Hyper text Markup language which is used to provide a structure to the website.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" onclick="toggleCard(this)">CSS</div>
+      <div class="card-content">
+        <div class="images">
+          <img src="css.png" alt="Image 3">
+        </div>
+        <div class="text">
+          <p>CSS</p>
+          <p>Cascading style sheet which is used to design a website.</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card-header" onclick="toggleCard(this)">JS</div>
+        <div class="card-content">
+          <div class="images">
+            <img src="js.png" alt="Image 3">
+          </div>
+          <div class="text">
+            <p>JS</p>
+            <p>Javascript is used to provide a functionality to the website.</p>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
